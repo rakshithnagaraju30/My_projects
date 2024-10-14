@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, iconitial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Personal Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e9ecef;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        img {
+            width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h2 {
+            text-align: center;
+            color: #495057;
+        }
+        ul {
+            list-style-type: circle;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #6c757d;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>John Doe's Profile</h1>
+    </header>
+
+    <main>
+        <img src="https://via.placeholder.com/150" alt="Profile Picture">
+        
+        <h2>About Me</h2>
+        <p>Hello! I'm John Doe, a software developer with a passion for building web applications. In my free time, I enjoy photography, hiking, and reading tech blogs.</p>
+        
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Coding</li>
+            <li>Photography</li>
+            <li>Traveling</li>
+            <li>Blogging</li>
+        </ul>
+        
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
